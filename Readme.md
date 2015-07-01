@@ -54,7 +54,9 @@ To use the root logger:
     logging.getLogger().addHandler(PushbulletHandler(access_token='YOUR_ACCESS_TOKEN'))
     logging.error('This is an example.')
 
-My use case: Log interesting messages to the log file, but also push urgent ones to my devices.
+#### My use case: 
+
+Log interesting messages to the log file, but also push urgent ones to my devices.
 
     import logging
     from PushbulletLogging import PushbulletHandler
