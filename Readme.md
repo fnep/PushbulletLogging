@@ -86,3 +86,8 @@ logging.debug('This message is thrown away.')
 logging.error('This message gets only to the logfile.')
 logging.critical('This message is pushed and gets to the logfile.')
 ```
+
+
+#### Warning
+
+No batteries included ... this is just the code i use. It's not actively maintained. It's just here in case it's useful for somebody.
